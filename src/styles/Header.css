@@ -1,0 +1,44 @@
+header {
+  background-color: #121212;
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffffff;
+  font-size: 1.75rem;
+  margin: 0;
+}
+
+nav a {
+  margin-left: 2rem;
+  color: #ffffff;
+  font-size: 2rem;           /* Match SANGREGORIOKIMPO size */
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;     /* 🚫 Remove underline */
+  transition: color 0.3s ease;
+}
+
+/* nav a {
+  margin-left: 1.5rem;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: 'Times New Roman', Times, serif; 
+  transition: color 0.3s ease;
+} */
+
+
+
+nav a:hover {
+  color: var(--accent); 
+}
+
+.logo {
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffffff;
+}
+

@@ -1,0 +1,122 @@
+#about {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.experience-section {
+  margin-top: 3rem;
+}
+
+.experience-heading {
+  font-size: 1.75rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 0.5rem;
+  width: 100%;
+  max-width: 900px;
+  margin-inline: auto;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.experience-card {
+  background-color: #111;
+  color: #f5f5f5;
+  padding: 0.25rem 1.5rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+.experience-card h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.experience-card em {
+  color: #999;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.experience-card ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin: 0;
+}
+
+.experience-card:hover {
+  transform: scale(1.01);
+}
+
+@media (max-width: 768px) {
+  .experience-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.contact-card {
+  width: 280px; /* consistent size for all cards */
+  text-align: center;
+  align-items: center;
+}
+
+.contact-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-icon {
+  font-size: 1.4rem;
+  color: var(--accent);
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.skill-tag {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background-color: #000;
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(255, 255, 255, 0.1);
+  white-space: nowrap;
+}
+
+.skill-icon {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
